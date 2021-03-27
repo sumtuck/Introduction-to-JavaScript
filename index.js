@@ -18,7 +18,8 @@ Do the following:
    HINT: no function required
 */
 
-
+var votingAge= '17';
+console.log(votingAge>18)
 
 /*
 Task 1b - Values
@@ -30,6 +31,12 @@ Do the following:
 
    HINT: no function required
 */
+
+var a= 5;
+var b= x;
+if (a>1); {
+  console.log(b+3)
+}
 
 
 
