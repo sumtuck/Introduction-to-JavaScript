@@ -221,29 +221,11 @@ Using the annoyingSong function below do the following:
 
 function bottles(num){
   while (num) {
-    console.log(`${num} bottles of soda on the wall, ${num} bottles of soda, take one down pass it around ${num} bottles of soda on the wall`);
+    console.log(`${num} bottles of soda on the wall, ${num--} bottles of soda, take one down pass it around ${num} bottles of soda on the wall`);
     }
   }
 bottles(10);
 
-function beerSong() {  
-  var bottles;
-  var bottlesLeft;
-  for (i = 99; i >= 1; i--) {
-    if (i == 1) {
-      bottles = "bottle";
-      bottlesLeft = "No bottles of beer on the wall!";
-    } else {
-      bottles = "bottles";
-      bottlesLeft = i - 1 + " bottles of beer on the wall!";
-    } console.log(i+ " " + bottles + " of beer on the wall,");
-    console.log(i+ " " + bottles + " of beer,");
-    console.log("Take one down, pass it around,");
-    console.log(bottlesLeft);
-    } 
-    
-}
-console.log(beerSong());
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
